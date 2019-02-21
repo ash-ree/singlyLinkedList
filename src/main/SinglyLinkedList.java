@@ -2,7 +2,12 @@ package main;
 
 public class SinglyLinkedList {
 
-    private  Node head;
+    private  Node head = null;
+    private int size = 0;
+
+    //method to insert new node at head
+    public void insert()
+
 
 
     private static class Node{
@@ -18,6 +23,11 @@ private Node next;
             this.data = data;
             this.next = next;
         }
+    }
+
+    public static void main(String args[])
+    {
+        SinglyLinkedList linkedList = new SinglyLinkedList();
     }
 
 }
